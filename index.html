@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ar">
+  <head>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Amiri&display=swap" rel="stylesheet">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Guess My Number!</title>
+  </head>
+  <body dir="rtl">
+    <header>
+      <h1>خمن رقمي!</h1>
+      <p class="between">(من 1 الى 100)</p>
+      <button class="btn again">اعادة</button>
+      <div class="number">?</div>
+    </header>
+    <main>
+      <section class="left">
+        <input type="number" class="guess" />
+        <button class="btn check">تحقق من اجابتي</button>
+      </section>
+      <section class="right">
+        <p class="message">  ابدا </p>
+        <p class="label-score">💯 النتيجة: <span class="score">100</span></p>
+        <p class="label-highscore">
+          🥇 اعلى نتيجة: <span class="highscore">0</span>
+        </p>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
